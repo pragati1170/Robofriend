@@ -1,3 +1,12 @@
+body{
+  background: linear-gradient(to right,rgb(9,18,38),rgb(116,210,241));
+}
+h1{
+  font-family: 'Lobster', cursive;
+}
+input{
+  font-size: 18px;
+}
 .App {
   text-align: center;
 }

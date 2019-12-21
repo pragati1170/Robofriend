@@ -1,0 +1,11 @@
+.roboCard{
+	height: 300px;
+	width: 300px;
+	background-color:#44c7c7;
+	border-radius: 15%;
+	margin: 15px;
+}
+img{
+	height: 150px;
+	width: 150px;
+}
