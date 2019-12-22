@@ -1,6 +1,6 @@
 {
   "name": "robofriend",
-  "homepage": "https://github.com/pragati1170/Robofriend",
+  "homepage": "https://pragati1170/github.io//Robofriend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,12 +14,13 @@
     "yarn": "^1.21.1"
   },
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
+    
   },
   "eslintConfig": {
     "extends": "react-app"
